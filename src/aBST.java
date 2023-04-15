@@ -62,6 +62,6 @@ class aBST {
             Tree[-i] = key;
         }
 
-        return i;
+        return -i;
     }
 }
