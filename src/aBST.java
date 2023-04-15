@@ -60,8 +60,10 @@ class aBST {
 
         if (i < 0) {
             Tree[-i] = key;
+
+            return -i;
         }
 
-        return -i;
+        return i;
     }
 }
