@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class aBST {
+class aBST {
     public Integer[] Tree;
 
     public aBST(int depth) {
