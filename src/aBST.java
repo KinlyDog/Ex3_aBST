@@ -41,9 +41,9 @@ class aBST {
 
         if (key < Tree[i]) {
             return FindKeyIndexRec(key, 2 * i + 1);
-        } else {
-            return FindKeyIndexRec(key, 2 * i + 2);
         }
+
+        return FindKeyIndexRec(key, 2 * i + 2);
     }
 
     public int AddKey(int key) {
@@ -60,7 +60,6 @@ class aBST {
 
         if (i < 0) {
             Tree[-i] = key;
-
             return -i;
         }
 
